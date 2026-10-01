@@ -1,0 +1,96 @@
+{
+  "success": [
+    {
+      "event": "reasoning_started",
+      "subgoal": null,
+      "message": "Decomposing goal: evaluate a candidate solution",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoals_created",
+      "subgoal": null,
+      "message": "Created 4 observable subgoals.",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "define input",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.002900022082030773
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "check constraints",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.00100000761449337
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "evaluate evidence",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.0005999754648655653
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "prepare conclusion",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.000400003045797348
+    },
+    {
+      "event": "reasoning_complete",
+      "subgoal": null,
+      "message": "All subgoals completed.",
+      "duration_ms": null
+    },
+    {
+      "event": "evidence_validated",
+      "subgoal": null,
+      "message": "Evidence passed validation.",
+      "duration_ms": null
+    },
+    {
+      "event": "evidence_validated",
+      "subgoal": null,
+      "message": "Evidence passed validation.",
+      "duration_ms": null
+    },
+    {
+      "event": "progress_reported",
+      "subgoal": null,
+      "message": "Progress: 4/4 completed.",
+      "duration_ms": null
+    },
+    {
+      "event": "synthesis_complete",
+      "subgoal": null,
+      "message": "Final synthesis generated from validated observable evidence.",
+      "duration_ms": 0.04049998824484646
+    }
+  ],
+  "rejection": [
+    {
+      "event": "reasoning_started",
+      "subgoal": null,
+      "message": "Decomposing goal: evaluate a candidate solution",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoals_created",
+      "subgoal": null,
+      "message": "Created 4 observable subgoals.",
+      "duration_ms": null
+    },
+    {
+      "event": "evidence_validated",
+      "subgoal": null,
+      "message": "Evidence passed validation.",
+      "duration_ms": null
+    },
+    {
+      "event": "synthesis_rejected",
+      "subgoal": null,
+      "message": "Cannot synthesize while subgoals remain.",
+      "duration_ms": null
+    }
+  ]
+}

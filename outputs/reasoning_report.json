@@ -1,0 +1,29 @@
+{
+  "synthesis": {
+    "conclusion": "The candidate solution satisfies the evaluated reasoning criteria.",
+    "supporting_evidence": [
+      "Evidence recorded for: define input",
+      "Evidence recorded for: check constraints",
+      "Evidence recorded for: evaluate evidence",
+      "Evidence recorded for: prepare conclusion"
+    ],
+    "completed_subgoals": [
+      "define input",
+      "check constraints",
+      "evaluate evidence",
+      "prepare conclusion"
+    ],
+    "progress": {
+      "total_subgoals": 4,
+      "completed_subgoals": 4,
+      "remaining_subgoals": 0,
+      "completion_percent": 100.0,
+      "evidence_count": 4
+    },
+    "backtrack_count": 0,
+    "limitations": [
+      "The conclusion is based only on the supplied observable evidence."
+    ]
+  },
+  "trace_event_count": 15
+}

@@ -1,0 +1,84 @@
+{
+  "success": [
+    {
+      "event": "evidence_validated",
+      "subgoal": null,
+      "message": "Evidence passed validation.",
+      "duration_ms": null
+    },
+    {
+      "event": "progress_reported",
+      "subgoal": null,
+      "message": "Progress: 0/4 completed.",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "evaluate input",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.0024999899324029684
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "check constraints",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.0012999807950109243
+    },
+    {
+      "event": "evidence_validated",
+      "subgoal": null,
+      "message": "Evidence passed validation.",
+      "duration_ms": null
+    },
+    {
+      "event": "progress_reported",
+      "subgoal": null,
+      "message": "Progress: 2/4 completed.",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "review evidence",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.001300009898841381
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "prepare conclusion",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.000700005330145359
+    },
+    {
+      "event": "reasoning_complete",
+      "subgoal": null,
+      "message": "All subgoals completed.",
+      "duration_ms": null
+    },
+    {
+      "event": "evidence_validated",
+      "subgoal": null,
+      "message": "Evidence passed validation.",
+      "duration_ms": null
+    },
+    {
+      "event": "progress_reported",
+      "subgoal": null,
+      "message": "Progress: 4/4 completed.",
+      "duration_ms": null
+    }
+  ],
+  "rejection": [
+    {
+      "event": "evidence_validated",
+      "subgoal": null,
+      "message": "Evidence passed validation.",
+      "duration_ms": null
+    },
+    {
+      "event": "progress_rejected",
+      "subgoal": null,
+      "message": "Progress counts do not match the total subgoal count.",
+      "duration_ms": null
+    }
+  ]
+}

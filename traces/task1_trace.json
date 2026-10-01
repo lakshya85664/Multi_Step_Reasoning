@@ -1,0 +1,60 @@
+{
+  "success": [
+    {
+      "event": "reasoning_started",
+      "subgoal": null,
+      "message": "Decomposing goal: evaluate a candidate solution",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoals_created",
+      "subgoal": null,
+      "message": "Created 4 observable subgoals.",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "define input",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.0025999906938523054
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "check constraints",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.001200009137392044
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "evaluate evidence",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.000700005330145359
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "prepare conclusion",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.0005999754648655653
+    },
+    {
+      "event": "reasoning_complete",
+      "subgoal": null,
+      "message": "All subgoals completed.",
+      "duration_ms": null
+    }
+  ],
+  "rejection": [
+    {
+      "event": "reasoning_rejected",
+      "subgoal": null,
+      "message": "Goal must be a non-empty string.",
+      "duration_ms": null
+    }
+  ],
+  "final_completed": [
+    "define input",
+    "check constraints",
+    "evaluate evidence",
+    "prepare conclusion"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "success": [
+    {
+      "event": "subgoal_completed",
+      "subgoal": "identify input",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.0033999967854470015
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "check constraints",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.0020999868866056204
+    },
+    {
+      "event": "reasoning_complete",
+      "subgoal": null,
+      "message": "All subgoals completed.",
+      "duration_ms": null
+    }
+  ],
+  "rejection": [
+    {
+      "event": "evidence_rejected",
+      "subgoal": null,
+      "message": "Evidence count exceeds completed subgoal count.",
+      "duration_ms": null
+    }
+  ]
+}

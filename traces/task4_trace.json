@@ -1,0 +1,90 @@
+{
+  "success": [
+    {
+      "event": "reasoning_started",
+      "subgoal": null,
+      "message": "Decomposing goal: evaluate a candidate solution",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoals_created",
+      "subgoal": null,
+      "message": "Created 4 observable subgoals.",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "define input",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.001800013706088066
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "check constraints",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.000800006091594696
+    },
+    {
+      "event": "evidence_validated",
+      "subgoal": null,
+      "message": "Evidence passed validation.",
+      "duration_ms": null
+    },
+    {
+      "event": "backtrack",
+      "subgoal": "define input",
+      "message": "Previous result invalidated; revisiting subgoal. Reason: New evidence invalidated the earlier input interpretation.",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "define input",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.000700005330145359
+    }
+  ],
+  "rejection": [
+    {
+      "event": "reasoning_started",
+      "subgoal": null,
+      "message": "Decomposing goal: evaluate a candidate solution",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoals_created",
+      "subgoal": null,
+      "message": "Created 4 observable subgoals.",
+      "duration_ms": null
+    },
+    {
+      "event": "subgoal_completed",
+      "subgoal": "define input",
+      "message": "Subgoal completed with concise evidence.",
+      "duration_ms": 0.000500003807246685
+    },
+    {
+      "event": "evidence_validated",
+      "subgoal": null,
+      "message": "Evidence passed validation.",
+      "duration_ms": null
+    },
+    {
+      "event": "backtrack",
+      "subgoal": "define input",
+      "message": "Previous result invalidated; revisiting subgoal. Reason: First evidence revision.",
+      "duration_ms": null
+    },
+    {
+      "event": "evidence_validated",
+      "subgoal": null,
+      "message": "Evidence passed validation.",
+      "duration_ms": null
+    },
+    {
+      "event": "backtrack_rejected",
+      "subgoal": "define input",
+      "message": "Backtracking limit exceeded: 1.",
+      "duration_ms": null
+    }
+  ]
+}
